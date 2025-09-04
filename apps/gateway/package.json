@@ -1,23 +1,22 @@
 {
-    "name": "@pza/gateway",
-    "version": "1.0.0",
-    "description": "API-Gateway for the entire system.",
-    "scripts": {
-        "build": "tsc -b",
-        "start": "node dist/app.js"
-    },
-    "main": "dist/app.js",
-    "packageManager": "pnpm@10.15.0",
-    "devDependencies": {
-        "@types/cors": "^2.8.19",
-        "@types/express": "^5.0.3",
-        "@types/node": "^24.3.0"
-    },
-    "dependencies": {
-        "@pza/restify": "workspace:*",
-        "cors": "^2.8.5",
-        "express": "^5.1.0",
-        "express-rate-limit": "^8.0.1",
-        "http-proxy-middleware": "^3.0.5"
-    }
+  "name": "@pza/gateway",
+  "main": "dist/app.js",
+  "packageManager": "pnpm@10.15.0",
+  "scripts": {
+    "build": "tsc -b",
+    "start": "node dist/app.js"
+  },
+  "dependencies": {
+    "@pza/restify": "workspace:*",
+    "@pza/types": "workspace:*",
+    "express": "^5.1.0",
+    "cors": "^2.8.5",
+    "express-rate-limit": "^8.0.1",
+    "http-proxy-middleware": "^3.0.5"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.3.0"
+  }
 }
