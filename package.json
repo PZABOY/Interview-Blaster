@@ -2,6 +2,9 @@
     "name": "@pza/brain-stack",
     "version": "1.0.0",
     "description": "Job interviewer for juniors, mid and seniors",
+    "engines": {
+        "node": "20.x"
+    },
     "scripts": {
         "build": "pnpm -r --workspace-concurrency=1 run build && mkdir -p apps/gateway/public && cp -R apps/frontend/dist/* apps/gateway/public/ || true",
         "start": "node apps/gateway/dist/app.js"

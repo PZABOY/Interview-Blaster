@@ -3,6 +3,7 @@
   "main": "dist/app.js",
   "packageManager": "pnpm@10.15.0",
   "scripts": {
+    "prebuild": "pnpm -C ../../ --filter @pza/types run build && pnpm -C ../../ --filter @pza/restify run build",
     "build": "tsc -b",
     "start": "node dist/app.js"
   },
@@ -18,5 +19,8 @@
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
     "@types/node": "^24.3.0"
+  },
+  "engines": {
+    "node": "20.x"
   }
 }
