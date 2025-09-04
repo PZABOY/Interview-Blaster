@@ -5,6 +5,7 @@
       "@pza/restify": ["libraries/restify/src/index.ts"],
       "@pza/types": ["libraries/types/src/index.ts"]
     },
+
     "target": "ES2020",
     "module": "CommonJS",
     "moduleResolution": "Node",
