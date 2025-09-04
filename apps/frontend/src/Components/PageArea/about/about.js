@@ -1,0 +1,6 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import "./about.css";
+export function About() {
+    return (_jsxs("section", { className: "About", children: [_jsx("header", { className: "AboutHero", "aria-label": "About hero illustration", children: _jsx("img", { src: "/src/assets/images/about.png", width: 800, height: 400, loading: "eager", decoding: "async" }) }), _jsx("h2", { children: "Who\u2019s Behind This" }), _jsxs("p", { children: ["I\u2019m ", _jsx("strong", { children: "Eliav Mendelsohn" }), " \u2014 an award-winning digital marketer turned full-stack builder\u2026 If you\u2019re hiring a hybrid who ships both ", _jsx("em", { children: "product" }), " and ", _jsx("em", { children: "progress" }), ",", _jsx("a", { href: "mailto:eliavman@gmail.com", children: " make me an offer" }), "."] }), _jsx("h2", { children: "What the App Does" }), _jsx("p", { children: "Brain Stack is your interview sparring partner: role + level + company \u2192 sharp, technical questions with crisp model answers." }), _jsx("h2", { children: "How It\u2019s Built" }), _jsx("p", { children: "React + TypeScript + Vite, managed with pnpm, and powered by ChatGPT for role-aware question generation." })] }));
+}
+export default About;
