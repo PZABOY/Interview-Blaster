@@ -1,0 +1,14 @@
+{
+    "name": "@pza/types",
+    "version": "1.0.0",
+    "description": "general types",
+    "main": "build/index.js",
+    "types": "build/index.d.ts",
+    "scripts": {
+        "build": "tsc"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "packageManager": "pnpm@10.15.0"
+}

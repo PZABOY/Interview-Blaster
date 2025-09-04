@@ -1,0 +1,21 @@
+{
+  "name": "@pza/generator",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon --exec ts-node src/app.ts --quiet"
+  },
+  "packageManager": "pnpm@10.15.0",
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.3.0"
+  },
+  "dependencies": {
+    "@pza/gpt": "workspace:*",
+    "@pza/prompter": "workspace:*",
+    "@pza/restify": "workspace:*",
+    "@pza/types": "workspace:*",
+    "express": "^5.1.0"
+  }
+}
